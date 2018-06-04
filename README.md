@@ -7,3 +7,4 @@
 - Java类的初始化顺序
 - Java继承类的初始化顺序
 - Java类ClassLoader的理解
+- 不会触发Java类初始化的示例
