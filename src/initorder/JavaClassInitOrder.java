@@ -1,3 +1,5 @@
+package initorder;
+
 /**
  * Java 类的初始化顺序示例
  * @author paulluv

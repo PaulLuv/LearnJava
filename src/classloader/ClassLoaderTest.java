@@ -1,3 +1,5 @@
+package classloader;
+
 import java.util.List;
 /**
  * Java 类加载器的示例
@@ -13,6 +15,8 @@ public class ClassLoaderTest {
         System.out.println("String类的加载器的名称：" + String.class.getClassLoader());
 
         System.out.println("List类的加载器的名称：" + List.class.getClassLoader());
+
+        System.out.println("Thread类的加载器的名称：" + Thread.currentThread().getContextClassLoader());
 
         ClassLoader cl = ClassLoaderTest.class.getClassLoader();
 

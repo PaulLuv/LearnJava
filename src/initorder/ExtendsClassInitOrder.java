@@ -1,3 +1,5 @@
+package initorder;
+
 /**
  * Java继承类的初始化顺序
  * @author paulluv
