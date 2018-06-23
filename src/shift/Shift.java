@@ -1,5 +1,15 @@
 package shift;
 
+/**
+ * @author paulluv
+ *
+ * Shift 移位操作
+ *
+ * 移位在计算机中是比较快的。
+ *
+ * >> 右移， 除法， 二进制右移1位相当于除以2；
+ * << 左移， 乘法， 二进制左移1位相当于乘以2.
+ */
 public class Shift {
 
     private static int a = 100;
